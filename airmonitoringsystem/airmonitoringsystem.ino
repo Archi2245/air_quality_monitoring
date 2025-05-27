@@ -143,7 +143,7 @@ void loop()
   }
 
    if(gasValue > 1200){
-    //Blynk.email("archigupta2245@gmail.com", "Alert", "Bad Air!");
+    //Blynk.email("archigupta2245@gmail.com", "Alert", "Bad Air!"); // type your email here
     Blynk.logEvent("pollution_alert","Bad Air");
   }
  }
